@@ -1,7 +1,7 @@
 {
   "Version": 1,
   "Files": [
-    "include/GenRotArea.h",
-    "source/GenRotArea.cpp"
+    "include/RotateActorsArea.h",
+    "source/RotateActorsArea.cpp"
   ]
 }

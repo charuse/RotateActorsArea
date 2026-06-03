@@ -1,22 +1,22 @@
 {
-  "Name": "GenRotArea",
+  "Name": "RotateActorsArea",
   "Author": "charuse",
-  "Description": "GenRot with Area trigger, same app",
+  "Description": "RotateActors with Area trigger",
   "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
   "ModuleData" : [
     {
       "NameObjFactory" : [
         {
-          "Name" : "GenRotArea",
-          "Function" : "createExtActor<GenRotArea>",
-          "Include" : "GenRotArea.h"
+          "Name" : "RotateActorsArea",
+          "Function" : "createExtActor<RotateActorsArea>",
+          "Include" : "RotateActorsArea.h"
         }
       ]
     },
     {
       "AreaObjMgr" : [
         {
-          "Name" : "GenRotArea",
+          "Name" : "RotateActorsArea",
           "MaxCount" : "64",
           "Function" : "AreaObjContainer::createManager<AreaObjMgr>"
         }

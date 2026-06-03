@@ -1,9 +1,9 @@
 #pragma once
 #include "syati.h"
 
-class GenRotArea : public AreaObj {
+class RotateActorsArea : public AreaObj {
 public:
-    GenRotArea(const char *pName);
+    RotateActorsArea(const char *pName);
 
     virtual void init(const JMapInfoIter &rIter);
     virtual bool rotater();
