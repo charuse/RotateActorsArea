@@ -50,7 +50,7 @@ bool RotateActorsArea::rotater() {
 
 void RotateActorsArea::movement() {
     if (mGo && isInVolume(*getPlayerPos())) {
-        mGo == false;
+        mGo = false;
 
         rotater()
         ? OSReport("[RAA] Rotated %d objects with ID %hd\n", mGroup->mNumObjs, mGroup->getActor(0)->mLinkedInfo.mLinkId) 
